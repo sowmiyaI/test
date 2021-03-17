@@ -12,6 +12,7 @@ class secViewController: UIViewController,UITableViewDelegate,UITableViewDataSou
 {
     var x = 0
     var y = 0
+    var z = 0
     func getContext() -> NSManagedObjectContext
     {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
