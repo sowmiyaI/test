@@ -10,7 +10,8 @@ import CoreData
 
 class secViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 {
-    var x = 0 
+    var x = 0
+    var y = 0
     func getContext() -> NSManagedObjectContext
     {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
